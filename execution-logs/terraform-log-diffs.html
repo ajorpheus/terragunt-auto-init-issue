@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<style>
+.AlignLeft { text-align: left; }
+.AlignCenter { text-align: center; }
+.AlignRight { text-align: right; }
+body { font-family: sans-serif; font-size: 11pt; }
+img.AutoScale { max-width: 100%; max-height: 100%; }
+td { vertical-align: top; padding-left: 4px; padding-right: 4px; }
+
+tr.SectionGap td { font-size: 4px; border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionBegin td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionMiddle td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SubsectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+tr.SubsectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+table.fc { border-top: 1px solid Black; border-left: 1px solid Black; width: 100%; font-family: monospace; font-size: 10pt; }
+td.TextItemInsigMod { color: #000000; background-color: #EEEEFF; }
+td.TextItemInsigOrphan { color: #000000; background-color: #FAEEFF; }
+td.TextItemNum { color: #696969; background-color: #ECECEC; }
+td.TextItemSame { color: #000000; background-color: #FFFFFF; }
+td.TextItemSigMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigOrphan { color: #000000; background-color: #F1E3FF; }
+.TextSegInsigDiff { color: #0000FF; }
+.TextSegReplacedDiff { color: #0000FF; font-style: italic; }
+.TextSegSigDiff { color: #FF0000; }
+td.TextItemInsigAdd { color: #000000; background-color: #EEEEFF; }
+td.TextItemInsigDel { color: #000000; background-color: #EEEEFF; text-decoration: line-through; }
+td.TextItemSigAdd { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigDel { color: #000000; background-color: #FFE3E3; text-decoration: line-through; }
+</style>
+<title>Text Compare</title>
+</head>
+<body>
+Text Compare<br>
+Produced: 31/01/2020 14:09:59<br>
+&nbsp; &nbsp;
+<br>
+Mode:&nbsp; Differences, With Context &nbsp;
+<br>
+Left file: /Users/userfoo/terragunt-auto-init-issue/execution-logs/plan-all/terraform.log &nbsp;
+<br>
+Right file: /Users/userfoo/terragunt-auto-init-issue/execution-logs/plan/terraform.log &nbsp;
+<br>
+<table class="fc" cellspacing="0" cellpadding="0">
+<tbody><tr class="SectionBegin">
+<td class="TextItemNum AlignRight">1</td>
+<td class="TextItemSame">~/terragunt-auto-init-issue/terragrunt/dev master</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">1</td>
+<td class="TextItemSame">~/terragunt-auto-init-issue/terragrunt/dev master</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">2</td>
+<td class="TextItemSame">❯ tail -F ./vpc/terraform.log</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">2</td>
+<td class="TextItemSame">❯ tail -F ./vpc/terraform.log</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">3</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">3</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">4</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">3</span>:4<span class="TextSegSigDiff">6</span> [INFO] Terraform version: 0.12.20</td>
+<td class="AlignCenter">&lt;&gt;</td>
+<td class="TextItemNum AlignRight">4</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">8</span>:4<span class="TextSegSigDiff">9</span> [INFO] Terraform version: 0.12.20</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">5</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">3</span>:4<span class="TextSegSigDiff">6</span> [INFO] Go runtime version: go1.12.13</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">5</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">8</span>:4<span class="TextSegSigDiff">9</span> [INFO] Go runtime version: go1.12.13</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">6</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">3</span>:4<span class="TextSegSigDiff">6</span> [INFO] CLI args: []string{"/Users/userfoo/.asdf/installs/terraform/0.12.20/bin/terraform", "--version"}</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">6</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">8</span>:4<span class="TextSegSigDiff">9</span> [INFO] CLI args: []string{"/Users/userfoo/.asdf/installs/terraform/0.12.20/bin/terraform", "--version"}</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">7</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">3</span>:4<span class="TextSegSigDiff">6</span> [DEBUG] Attempting to open CLI config file: /Users/userfoo/.terraformrc</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">7</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">8</span>:4<span class="TextSegSigDiff">9</span> [DEBUG] Attempting to open CLI config file: /Users/userfoo/.terraformrc</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">8</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">3</span>:4<span class="TextSegSigDiff">6</span> Loading CLI configuration from /Users/userfoo/.terraformrc</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">8</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">8</span>:4<span class="TextSegSigDiff">9</span> Loading CLI configuration from /Users/userfoo/.terraformrc</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">9</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">3</span>:4<span class="TextSegSigDiff">6</span> [INFO] Checkpoint disabled. Not running.</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">9</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">8</span>:4<span class="TextSegSigDiff">9</span> [INFO] Checkpoint disabled. Not running.</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">10</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">3</span>:4<span class="TextSegSigDiff">6</span> [INFO] CLI command args: []string{"version", "--version"}</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">10</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">8</span>:4<span class="TextSegSigDiff">9</span> [INFO] CLI command args: []string{"version", "--version"}</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">11</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">3</span>:4<span class="TextSegSigDiff">6</span> [DEBUG] checking for provider in "."</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">11</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">8</span>:4<span class="TextSegSigDiff">9</span> [DEBUG] checking for provider in "."</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">12</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">3</span>:4<span class="TextSegSigDiff">6</span> [DEBUG] checking for provider in "/Users/userfoo/.asdf/installs/terraform/0.12.20/bin"</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">12</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">8</span>:4<span class="TextSegSigDiff">9</span> [DEBUG] checking for provider in "/Users/userfoo/.asdf/installs/terraform/0.12.20/bin"</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">13</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">3</span>:4<span class="TextSegSigDiff">6</span> [INFO] Failed to read plugin lock file .terraform/plugins/darwin_amd64/lock.json: open .terraform/plugins/darwin_amd64/lock.json: no such file or directory</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">13</td>
+<td class="TextItemSigMod">2020/01/31 13:4<span class="TextSegSigDiff">8</span>:4<span class="TextSegSigDiff">9</span> [INFO] Failed to read plugin lock file .terraform/plugins/darwin_amd64/lock.json: open .terraform/plugins/darwin_amd64/lock.json: no such file or directory</td>
+</tr>
+</tbody></table>
+<br>
+
+
+</body></html>

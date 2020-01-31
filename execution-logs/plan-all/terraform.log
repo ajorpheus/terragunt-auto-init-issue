@@ -1,0 +1,13 @@
+~/terragunt-auto-init-issue/terragrunt/dev master
+❯ tail -F ./vpc/terraform.log
+
+2020/01/31 13:43:46 [INFO] Terraform version: 0.12.20
+2020/01/31 13:43:46 [INFO] Go runtime version: go1.12.13
+2020/01/31 13:43:46 [INFO] CLI args: []string{"/Users/userfoo/.asdf/installs/terraform/0.12.20/bin/terraform", "--version"}
+2020/01/31 13:43:46 [DEBUG] Attempting to open CLI config file: /Users/userfoo/.terraformrc
+2020/01/31 13:43:46 Loading CLI configuration from /Users/userfoo/.terraformrc
+2020/01/31 13:43:46 [INFO] Checkpoint disabled. Not running.
+2020/01/31 13:43:46 [INFO] CLI command args: []string{"version", "--version"}
+2020/01/31 13:43:46 [DEBUG] checking for provider in "."
+2020/01/31 13:43:46 [DEBUG] checking for provider in "/Users/userfoo/.asdf/installs/terraform/0.12.20/bin"
+2020/01/31 13:43:46 [INFO] Failed to read plugin lock file .terraform/plugins/darwin_amd64/lock.json: open .terraform/plugins/darwin_amd64/lock.json: no such file or directory

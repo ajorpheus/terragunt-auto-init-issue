@@ -1,0 +1,19 @@
+~/terragunt-auto-init-issue/terragrunt/dev master*
+❯ terragrunt plan-all
+[terragrunt] 2020/01/31 13:43:45 Terragrunt Version: v0.21.11
+[terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev] 2020/01/31 13:43:45 Did not find any locals block: skipping evaluation.
+[terragrunt] 2020/01/31 13:43:45 Setting download directory for module /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev to /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/.terragrunt-cache
+[terragrunt] 2020/01/31 13:43:45 Module /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev does not have an associated terraform configuration and will be skipped.
+[terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc] 2020/01/31 13:43:45 Did not find any locals block: skipping evaluation.
+[terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc] 2020/01/31 13:43:45 Did not find any locals block: skipping evaluation.
+[terragrunt] 2020/01/31 13:43:45 Setting download directory for module /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc to /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc/.terragrunt-cache
+[terragrunt] 2020/01/31 13:43:45 Stack at /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev:
+  => Module /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc (excluded: false, dependencies: [])
+[terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc] 2020/01/31 13:43:45 Module /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc must wait for 0 dependencies to finish
+[terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc] 2020/01/31 13:43:45 Running module /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc now
+[terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc] 2020/01/31 13:43:45 Reading Terragrunt config file at /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc/terragrunt.hcl
+[terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc] 2020/01/31 13:43:45 Did not find any locals block: skipping evaluation.
+[terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc] 2020/01/31 13:43:45 Did not find any locals block: skipping evaluation.
+[terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc] 2020/01/31 13:43:46 Downloading Terraform configurations from file:///Users/userfoo/terragunt-auto-init-issue/terraform into /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc/.terragrunt-cache/vXqVUzSotofJ2TrjeobZyNzJ8Oo/9ZacYg_JqVb1M-xBV_vOF-kq5r8
+[terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc] 2020/01/31 13:43:46 Copying files from /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc into /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc/.terragrunt-cache/vXqVUzSotofJ2TrjeobZyNzJ8Oo/9ZacYg_JqVb1M-xBV_vOF-kq5r8/vpc
+[terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc] 2020/01/31 13:43:46 Setting working directory to /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc/.terragrunt-cache/vXqVUzSotofJ2TrjeobZyNzJ8Oo/9ZacYg_JqVb1M-xBV_vOF-kq5r8/vpc

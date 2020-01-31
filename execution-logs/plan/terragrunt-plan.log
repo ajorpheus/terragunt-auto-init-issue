@@ -1,0 +1,15 @@
+~/terragunt-auto-init-issue/terragrunt/dev/vpc master*
+❯ terragrunt plan
+[terragrunt] 2020/01/31 13:48:48 Terragrunt Version: v0.21.11
+[terragrunt] 2020/01/31 13:48:48 Reading Terragrunt config file at /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc/terragrunt.hcl
+[terragrunt] 2020/01/31 13:48:48 Did not find any locals block: skipping evaluation.
+[terragrunt] 2020/01/31 13:48:48 Did not find any locals block: skipping evaluation.
+[terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc] 2020/01/31 13:48:48 Running command: terraform --version
+[terragrunt] 2020/01/31 13:48:49 Downloading Terraform configurations from file:///Users/userfoo/terragunt-auto-init-issue/terraform into /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc/.terragrunt-cache/vXqVUzSotofJ2TrjeobZyNzJ8Oo/9ZacYg_JqVb1M-xBV_vOF-kq5r8
+[terragrunt] 2020/01/31 13:48:49 Copying files from /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc into /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc/.terragrunt-cache/vXqVUzSotofJ2TrjeobZyNzJ8Oo/9ZacYg_JqVb1M-xBV_vOF-kq5r8/vpc
+[terragrunt] 2020/01/31 13:48:49 Setting working directory to /Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc/.terragrunt-cache/vXqVUzSotofJ2TrjeobZyNzJ8Oo/9ZacYg_JqVb1M-xBV_vOF-kq5r8/vpc
+[terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc] 2020/01/31 13:48:49 Initializing remote state for the s3 backend
+[terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc] 2020/01/31 13:48:49 [terragrunt] [/Users/userfoo/terragunt-auto-init-issue/terragrunt/dev/vpc]  Remote state S3 bucket my-terraform-state-dev2 does not exist or you don't have permissions to access it. Would you like Terragrunt to create it? (y/n)
+
+
+..... PLAN SUCCEEDS AFTER 'y' .....

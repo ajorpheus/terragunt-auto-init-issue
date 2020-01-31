@@ -1,0 +1,37 @@
+# Terraform files
+.terraform
+terraform.tfstate
+terraform.tfstate.*
+*.tf.ignore
+*.plan
+
+# Secrets and whatnot
+keys/
+secrets.tfvars
+backend.tf
+
+# IDE nonsense
+.idea
+.vscode
+
+#### OS Temp files ####
+# General
+.swp
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# General Temp, Backup files
+*~
+nohup.out
+*_BACKUP_*
+*_BASE_*
+*_LOCAL_*
+*_REMOTE_*
+
+# Ignore git worktrees
+.worktrees
+
+# Terragrunt
+.terragrunt-cache
